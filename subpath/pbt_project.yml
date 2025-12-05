@@ -1,0 +1,109 @@
+name: lori.shanahan
+description: concept
+version: 0.0.1
+author: itiaqrfv.3opdcmbc@nyv2vkrz.com
+language: sql
+buildSystem: ''
+buildSystemDetails: null
+pipelines: {}
+datasets: {}
+templates: {}
+jobs: {}
+gemContainer:
+  languageVersion: ''
+  gemLibsVersion: ''
+  gems: {}
+  dependencies: null
+functions:
+  author: null
+  createdAt: '2025-12-05 20:45:39'
+  udfs: {}
+  udafs: {}
+  expressions: {}
+  airflowFunctions: {}
+  businessRules: {}
+subgraphs: {}
+sqlModels:
+  .prophecy/metadata/sqlmodels/model:
+    name: model
+    schema: null
+    description: model desc
+    author: itiaqrfv.3opdcmbc@nyv2vkrz.com
+    files:
+    - model.sql
+    sqlDependencies:
+      models: []
+      datasets: []
+      seeds: []
+      sources: []
+      snapshots: []
+    createdAt: '2025-12-05 20:45:41'
+  .prophecy/metadata/sqlmodels/newmodel:
+    name: newmodel
+    schema: null
+    description: desc model
+    author: itiaqrfv.3opdcmbc@nyv2vkrz.com
+    files:
+    - subpath/newmodel.sql
+    sqlDependencies:
+      models: []
+      datasets: []
+      seeds: []
+      sources: []
+      snapshots: []
+    createdAt: '2025-12-05 20:45:41'
+sqlSnapshots: {}
+sqlTests: {}
+sqlMacros:
+  .prophecy/metadata/sqlmacros/macro:
+    name: macro
+    macroType: macro
+    description: macro desc
+    author: itiaqrfv.3opdcmbc@nyv2vkrz.com
+    files:
+    - sources.yml
+    createdAt: '2025-12-05 20:45:41'
+sqlSeeds:
+  .prophecy/metadata/sqlseeds/seed1:
+    name: seed1
+    schema: null
+    description: seed desc
+    author: itiaqrfv.3opdcmbc@nyv2vkrz.com
+    files:
+    - sources.yml
+    createdAt: '2025-12-05 20:45:41'
+sqlSources:
+  .prophecy/metadata/sqlsources/source:
+    name: source
+    description: source desc
+    author: itiaqrfv.3opdcmbc@nyv2vkrz.com
+    files:
+    - sources.yml
+    createdAt: '2025-12-05 20:45:41'
+    tables: []
+  .prophecy/metadata/sqlsources/multipleFileSource:
+    name: multipleFileSource
+    description: multipleFileSource desc
+    author: itiaqrfv.3opdcmbc@nyv2vkrz.com
+    files:
+    - sources1.yml
+    - mfs/src/multipleFileSource.yml
+    createdAt: '2025-12-05 20:45:41'
+    tables:
+    - name: table1
+      schema: null
+      description: descr 1
+      author: itiaqrfv.3opdcmbc@nyv2vkrz.com
+      createdAt: '2025-12-05 20:45:41'
+sqlUnreferencedSources: {}
+sqlPipeline:
+  name: sqlPipeline
+  description: null
+  author: itiaqrfv.3opdcmbc@nyv2vkrz.com
+  createdAt: '2025-12-05 20:45:39'
+dependencies: []
+projectDependencies: {}
+flags:
+  shouldAddDefaultDependenciesIfAbsent: true
+pipelineConfigurations: {}
+projectConfigurations: {}
